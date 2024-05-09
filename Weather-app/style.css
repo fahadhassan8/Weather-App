@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+}
+.card{
+    width:90%;
+    max-width: 450px;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,117,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: none;
+    background-color: #ebfffc;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: none;
+    background-color: #ebfffc;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 1.8em;
+    color:#6c6c6c;
+    cursor: pointer;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 3em;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 2em;
+    font-weight: 400;
+    margin-top: 8px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 1em;
+    margin-bottom: 6px;
+}
+@media (max-width:470px){
+    .search input{
+        padding: 8px 15px;
+        height: 40px;
+        font-size: 1em;
+    }
+    .search button{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        font-size: 1.2em;
+    }
+    .weather-icon{
+        width: 150px;
+    }
+    .humidity, .wind{
+        font-size: 0.8em;
+    }
+    .weather h1{
+        font-size: 2.5em;
+    }
+    .weather h2{
+        font-size: 1.5em;
+    }
+    .col img{
+        width:35px;
+    }
+}
+@media (max-width:390px){
+    .card{
+        padding: 40px 20px;
+    }
+    .search input{
+        margin-right: 6px;
+    }
+}
