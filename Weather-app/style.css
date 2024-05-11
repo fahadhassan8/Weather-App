@@ -114,4 +114,10 @@
     .search input{
         margin-right: 6px;
     }
+    .search button{
+        height: 34px;
+        width: 34px;
+        border-radius: 17px;
+        font-size: 1em;
+    }   
 }
