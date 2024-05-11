@@ -1,7 +1,7 @@
 let body = document.body;
 body.style.backgroundImage = "url(./assets/images/bg-image.jpg)";
 body.style.backgroundSize = "cover";
-body.style.backgroundPosition = "center";
+// body.style.backgroundPosition = "center";
 
 let weather = document.querySelector(".weather");
 weather.style.display = "none";
