@@ -112,12 +112,12 @@
         padding: 40px 20px;
     }
     .search input{
-        margin-right: 6px;
+        margin-right: 5px;
     }
     .search button{
         height: 34px;
         width: 34px;
-        border-radius: 17px;
+        border-radius: 50%;
         font-size: 1em;
     }   
 }
