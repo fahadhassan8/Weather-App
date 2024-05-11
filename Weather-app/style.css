@@ -4,9 +4,6 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
-body{
-    background-color: #222;
-}
 .card{
     width:90%;
     max-width: 450px;
@@ -80,7 +77,7 @@ body{
 }
 .humidity, .humid, .wind, .wind-speed{
     font-size: 1em;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
 }
 @media (max-width:470px){
     .search input{
