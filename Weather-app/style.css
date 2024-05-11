@@ -78,7 +78,7 @@ body{
     width:40px;
     margin-right: 10px;
 }
-.humidity, .wind{
+.humidity, .humid, .wind, .wind-speed{
     font-size: 1em;
     margin-bottom: 6px;
 }
@@ -97,7 +97,7 @@ body{
     .weather-icon{
         width: 150px;
     }
-    .humidity, .wind{
+    .humidity, .humid, .wind, .wind-speed{
         font-size: 0.8em;
     }
     .weather h1{
